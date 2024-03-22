@@ -84,7 +84,7 @@ const Navbar = () => {
             ) : (
               <>
               <li className="navItem">
-              <a href="/Register" className="navLink">ลงทะเบียน</a>
+              <Link to="/Register" className="navLink">ลงทะเบียน</Link>
               </li>
               <button className="btn">
                 <Link to="/LoginForm">เข้าสู่ระบบ</Link>

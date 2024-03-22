@@ -26,7 +26,7 @@ const RegisterForm = () => {
     e.preventDefault();
     try {
       // Send a post request to the server
-      const response = await axios.post('http://localhost:3001/register', user);
+      const response = await axios.post('https://server-hometradeexchange.onrender.com/register', user);
       console.log(response.data); // handle the response as you wish
       navigate('/LoginForm');
     } catch (error) {

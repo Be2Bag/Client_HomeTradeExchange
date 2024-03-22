@@ -66,7 +66,7 @@ const EditListing = () => {
     };
 
     try {
-        const response = await axios.put(`http://localhost:3001/update-listing/${initialListing.listing_id}`, listingData);
+        const response = await axios.put(`https://server-hometradeexchange.onrender.com/update-listing/${initialListing.listing_id}`, listingData);
         console.log(response.data);
         // Handle successful update here
         navigate('/');

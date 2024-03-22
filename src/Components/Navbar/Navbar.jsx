@@ -75,7 +75,7 @@ const Navbar = () => {
                {username && <span>สวัสดีคุณ {username}</span>}
               </li>
               <li className="navItem">
-              <a href="/PropertyForm" className="navLink">ลงประกาศฟรี</a>
+              <Link to="/PropertyForm" className="navLink">ลงประกาศฟรี</Link>
               </li>
               <button className="btn" onClick={handleLogout}>
                 ออกจากระบบ
